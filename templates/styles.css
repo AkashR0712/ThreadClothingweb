@@ -1,0 +1,41 @@
+.navbar {
+    background-color: #000000;
+  }
+  
+  #homesection {
+    margin-left: 13rem;
+  }
+  
+  @keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+  }
+  
+  .moving-text {
+    display: block;
+    font-size: 14px;
+    animation: slideInFromRight 4s ease-in-out infinite;
+    animation-delay: 1s;
+  }
+  
+  .section-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .section-title-bold span,
+  .section-title-bold-center span {
+    border: 2px solid rgba(0, 0, 0, .1);
+    padding: .3em .8em;
+  }
+  
+  .section-title-bold-center span,
+  .section-title-center span {
+    text-align: center;
+  }
