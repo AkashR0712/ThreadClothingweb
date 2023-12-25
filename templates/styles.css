@@ -409,3 +409,7 @@
   white-space: nowrap;
 }
 /*special effects ends*/
+.cart-table{
+  align-items: center;
+  margin-top:100px;
+}
