@@ -29,7 +29,8 @@ class Product(models.Model):
         ('hand', 'Hand Wash'),
     ]
 
-    name = models.CharField(max_length=255)
+    name = models.CharField(max_length=255) 
+    image=models.ImageField(upload_to='pics',default=None)
     original_price = models.DecimalField(max_digits=10, decimal_places=2)
     offer_price = models.DecimalField(max_digits=10, decimal_places=2)
     description = models.TextField()
