@@ -3,8 +3,7 @@ from django.db import models
 # Create your models here.
 # models.py
 
-from django.db import models
-
+#base class
 class Product(models.Model):
     SIZE_CHOICES = [
         ('XS', 'Extra Small'),
@@ -47,7 +46,7 @@ class Product(models.Model):
     class Meta:
         abstract = True
 
-
+#Inheriting base class
 class MenTshirt(Product):
     pass
 
