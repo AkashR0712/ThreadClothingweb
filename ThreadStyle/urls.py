@@ -18,4 +18,6 @@ from django.urls import path
 from . import views
 urlpatterns = [ 
     path('',views.home,name="home"),
+    path('oversizedfilter',views.oversizedfilter,name="oversizedfilter"),
+
 ]
