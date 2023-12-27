@@ -8,5 +8,5 @@ def home(request):
 #when we click oversized t-shirt on homepage
 def oversizedfilter(request):
     ob1=MenOversizedTshirt.objects.all()
-    print(len(ob1))
+
     return render(request,"filter.html",{'ob1':ob1})
