@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'clothingwebsite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'lokesh1',
+        'NAME': 'threadstyle',
         'USER':'postgres',
-        'PASSWORD':'lokesh0987',
+        'PASSWORD':'2508',
         'HOST':'localhost',
     }
 }
